@@ -43,7 +43,7 @@ function SidebarChat({ id, name, addNewChat }) {
     </Link>
   ) : (
     <div onClick={createChat} className="sidebarChat">
-      <h2>Add new Chat</h2>
+      <h2>Add New Chat</h2>
     </div>
   );
 }
